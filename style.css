@@ -1,0 +1,103 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#movie{
+    width: 100%;
+    /* background: blue; */
+    display: flex
+}
+
+#movie .navbar{
+    height: 10%;
+    width: 100%;
+    background: yellow;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    position: fixed;
+}
+#movie .navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 15px;
+    font-weight: 900;
+}
+#movie .navbar ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+#movie .navbar ul li a:hover{
+    color: grey;
+}
+#movie .navbar i{
+    font-size: 30px;
+    color: black;
+    margin-right: 10px;
+}
+
+#movie .movie-section{
+    width: 100%;
+    background: rgba(228, 223, 223, 0.464);
+    margin-top: 70px;
+}
+.movie-box-section{
+    width: 80%;
+    display: flex;
+    margin: 0px 140px;
+}
+
+.movie-box-section .movie-text{
+    display: flex;
+    background: white;
+}
+.movie-box-section .movie-text ul li{
+    list-style: none;
+}
+.movie-box-section .movie-text img{
+    height: 335px;
+    width: 330px;
+}
+/* .bi-dash{
+    font-size: 15px;
+}
+.bi-plus-lg{
+    font-size: 15px;
+
+} */
+.movie-box-section .movie-text ul li span {
+    margin-left: 20px;
+
+}
+.movie-box-section .movie-text ul li span button{
+    background: rgb(17, 17, 220);
+    color: white;
+    border: 0px;
+    border-radius: 7px;
+    
+}
+.movie-box-section .movie-text ul li span button:hover{
+    background: rgba(4, 4, 101, 0.889);
+}
+
+.star{
+    border:none;
+    background-color: unset;
+    color:goldenrod;
+    font-size: 1.5rem;
+  }
+  
+  p{
+    text-align: center;
+  }
+
+footer{
+    margin-top: -20px;
+    width: 100%;
+    background: black;
+    color: white;
+    text-align: center;
+    margin-bottom: -25px;
+}
